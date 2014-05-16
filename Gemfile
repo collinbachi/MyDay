@@ -7,6 +7,9 @@ gem 'rails', '4.1.1'
 ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3', '1.3.8'

@@ -9,3 +9,13 @@
     </section>
   </aside>
 </div>
+<div class="center hero-unit">
+	<%= week_calendar do |date| %>
+		<%= date %>
+	<% end %>
+	<br>
+	<br>
+	<%= month_calendar do |date| %>
+		<%= date %>
+	<% end %>
+</div>
